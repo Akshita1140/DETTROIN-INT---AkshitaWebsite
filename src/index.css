@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
+.jali-pattern {
+  background-color: transparent;
+  background-image: radial-gradient(#D4AF37 0.5px, transparent 0.5px);
+  background-size: 24px 24px;
+  opacity: 0.15;
+}
+
+.jali-border {
+  background-image: radial-gradient(#D4AF37 1px, transparent 1px);
+  background-size: 12px 12px;
+}
+
+.hero-clip {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0% 100%);
+}
+
+.card-hover:hover {
+  border-color: #D4AF37;
+  transform: translateY(-4px);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #D4AF37;
+  border-radius: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #fff8f7;
+}
