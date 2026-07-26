@@ -1,6 +1,20 @@
 # Excellence International School — Website
 
+## Submission Details
+
+| Field | Detail |
+|---|---|
+| Full Name | *Akshita Goyal* |
+| Email Address | *akshitagoyalw123@gmail.com* |
+| GitHub Username | [Akshita1140](https://github.com/Akshita1140) |
+| Selected Website | Excellence International School, Aligarh — redesigned from a Google Stitch concept |
+| Live Demo Link | [dettroin-int-akshita-website.vercel.app](https://dettroin-int-akshita-website.vercel.app/) |
+| Technologies Used | React 18, Vite, Tailwind CSS, React Router, shadcn-style components (class-variance-authority, tailwind-merge), Lucide React |
+| Key Improvements Made | Converted static Stitch mockups into a fully functional multi-page React app with client-side routing; made the testimonial carousel, FAQ accordion, and enquiry form interactive with real React state; built a `SafeImage` component with automatic fallback so no image can ever break; added a Vercel rewrite config so all routes work on direct load/refresh |
+
 A modern, responsive website for **Excellence International School, Aligarh** — built with React, Vite, and Tailwind CSS, styled around a custom "Enlightened Tradition" design system.
+
+**Live site:** [dettroin-int-akshita-website.vercel.app](https://dettroin-int-akshita-website.vercel.app/)
 
 ---
 
